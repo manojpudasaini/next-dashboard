@@ -21,7 +21,6 @@ export default async function CardWrapper() {
     numberOfInvoices,
     totalPendingInvoices,
   } = await fetchCardData();
-  const myPromise = await Promise.reject('error occurred in promise');
   return (
     <>
       {/* NOTE: comment in this code when you get to this point in the course */}
